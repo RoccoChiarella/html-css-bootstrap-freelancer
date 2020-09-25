@@ -108,8 +108,8 @@ section.opposite .separator::after {
     line-height: 40px;
 }
 
-#portfolio .container .row .col-xs-4{
-    margin-bottom: 3rem!important;
+#portfolio .container .row div{
+    margin-bottom: 30px!important;
     padding-right: 24px;
     padding-left: 24px;
 }
@@ -120,7 +120,10 @@ section.opposite .separator::after {
     border-radius: 8px;
 }
 
-#about .container .row
+.lead{
+    font-size: 20px;
+    font-weight: 300;
+}
 
 @media screen and (min-width: 992px) {
     .navbar-default .navbar-brand {
